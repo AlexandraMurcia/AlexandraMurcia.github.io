@@ -1,0 +1,135 @@
+body {
+  background: black;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor {
+  width: 99vw;
+  height: 98vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.encabezado {
+  min-width: 300px;
+  width: 60%;
+  height: 90%;
+  padding: 10px;
+  background-image: url('https://png.pngtree.com/background/20220818/original/pngtree-background-color-cream-picture-image_1915870.jpg');
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: crimson;
+  color: #f1f1f1;
+  font-weight: "bold";
+  font-size: 24px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #FBA8AF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 7px;
+}
+
+.button:hover {
+  background-color: #FB8D96;
+}
+
+.button:active {
+  background-color: #F9626E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #FBA8AF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 7px;
+}
+
+.button2:hover {
+  background-color: #FB8D96;
+}
+
+.button2:active {
+  background-color: #F9626E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button3 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #FBA8AF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 7px;
+}
+
+.button3:hover {
+  background-color: #FB8D96;
+}
+
+.button3:active {
+  background-color: #F9626E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button4 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #F86A6A;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 40px;
+}
+
+.button4:hover {
+  background-color: #fc4558;
+}
+
+.button4:active {
+  background-color: #ce2032;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" charset="utf-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Preguntas</title>
+</head>
+
+<body>
+    <div class="alerta" id="alerta">
+        <h1 id="mensajeAlerta"></h1>
+        <button class="btnSalir2" id="btn7" type="button" onclick="salir()">
+            <font face="Comic Sans MS,arial,verdana">SALIR</font>
+        </button>
+    </div>
+    <div id="contenedor" class="contenedor">
+        <div class="encabezado">
+            <div class="menu">
+                <div class="categoria" id="categoria"></div>
+                <center>
+                    <div class="contador" id="contador">0</div>
+                </center>
+                <div id="reloj">
+                    <span id="segundos">10</span>
+                </div>
+            </div>
+
+            <br>
+            <div class="pregunta" id='pregunta'></div></br>
+
+            <div class='imagen' id='imagen'></div>
+        </div>
+        <div class="contenedorResp" id="respuestas">
+
+        </div>
+        <div class="acciones">
+            <button class="btnEvaluar" id="btn5" type="button" onclick="validar()">
+                <font face="Comic Sans MS,arial,verdana"> EVALUAR</font>
+            </button>
+            <button class="btnSiguiente" id="btn6" type="button" onclick="siguiente()">
+                <font face="Comic Sans MS,arial,verdana">SIGUIENTE</font>
+            </button>
+            <button class="btnSalir" id="btn7" type="button" onclick="salir()">
+                <font face="Comic Sans MS,arial,verdana">SALIR</font>
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
