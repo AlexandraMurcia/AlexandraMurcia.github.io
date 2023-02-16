@@ -8,7 +8,7 @@ function obtener_nombreLS() {
 
 function guardarCategoriaElegida(categoria) {
     localStorage.setItem("categoria", categoria);
-    location.href = "../preguntas/index.html";
+    location.href = "../Preguntas/index.html";
 }
 
 function salir() {
